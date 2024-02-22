@@ -1,0 +1,121 @@
+aside{
+	width: 190px;
+	float: left;
+}
+
+aside #login_box{
+	width: 186px;
+	height: 120px;
+	border:solid 1px #dddddd;
+	border-radius: 10px; 
+	background-color: #f3f3f3;
+}
+
+aside #login_title{
+	margin: 10px 0 0 10px;
+}
+
+aside #login_button{
+	margin: 10px 0 0 10px;
+}
+
+
+aside #login_input{
+	float: left;
+}
+
+aside #login_btn{
+	float: left;
+	margin: 3px 0 0 5px;
+}
+
+aside #login_input input{
+	width: 100px;
+	height: 20px;
+	border: solid 1px #dddddd;
+}
+
+aside #login_input input li{
+	margin-top: 2px;
+}
+
+aside #join_search{
+	margin: 10px 0 0 5px;
+}
+
+aside #list{
+width: 186px;
+height: 130px;
+margin-top: 10px; 
+background-color: #ffff00;
+border: solid 1px #cccccc;
+border-radius: 10px;
+}
+aside #list_title{
+	margin-top: 5px; 
+	font-size: 20px;
+	color: #0000ff;
+	text-align: center;
+}
+
+aside #list ul{
+	margin: 10px 0 0 40px;
+}
+
+aside #list li{
+	margin-top: 3px;
+	list-style-type: disc;
+}
+
+/*메인 콘텐츠*/
+section#main {
+	width: 758px;
+	float: right;
+}
+
+section#main #banner{
+	text-align: center;
+	padding: 25px 0 25px 0;
+	background-color: #ff00ff;
+	font-size: 20px;
+}
+
+section#main #p_c{
+	height: 250px;
+	position: relative;
+	margin-top: 10px;
+}
+
+section#main #p_c h2{
+	color:red;
+	padding-bottom: 5px;
+	border-bottom: solid 2px #ff00ff;
+}
+
+section#main .picture{
+	margin: 10px 10px 10px 30px;
+	float: left;
+	text-align: center;
+}
+
+section#main .picture img{
+	border: solid 1px #000000;
+	display: block;
+}
+
+section#main .picture .subject{
+	margin-top: 3px;
+	font-size: 15px;
+	color: #0000ff;
+}
+
+section#main #thumbnail{
+	height: 250px;
+	margin-top: 10px;
+}
+
+section#main #thumbnail h2{
+	color:red;
+	padding-bottom: 5px;
+	border-bottom: solid 2px #ff00ff;
+}
