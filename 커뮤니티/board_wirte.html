@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>클래식기타 커뮤니티</title>
+	<link rel="stylesheet" type="text/css" href="common1.css">
+	<link rel="stylesheet" type="text/css" href="header.css">
+	<link rel="stylesheet" type="text/css" href="footer.css">
+	<link rel="stylesheet" type="text/css" href="board_left.css">
+	<link rel="stylesheet" type="text/css" href="board_write_main.css">
+<body>
+<div id = "wrap"> <!--용지 크기-->
+	<header>
+		<a href="index.html"><img id = "logo" src="rubato/logo.png"></a>
+		<nav id = "top_menu">HOME | LOGIN | JOIN | NOTICE</nav>
+		<nav>
+			<ul id = "main_menu">
+				<li><a href="board_list.html">자유게시판</a></li>
+				<li><a href="#">기타 연주</a></li>
+				<li><a href="#">공동 구매</a></li>
+				<li><a href="#">연주회 안내</a></li>
+				<li><a href="#">회원 게시판</a></li>
+			</ul>
+		</nav>
+	</header>
+	<aside>
+		<article id = "login_box">
+			<img id = "login_title" src="rubato/ttl_login.png">
+			<div id = "input_button">
+				<ul id = "login_input">
+					<li><input type="text"></li>
+					<li><input type="password"></li>
+				</ul>
+				<img id = "login_btn" src="rubato/btn_login.gif">
+			</div>
+			<div class = "clear"></div>
+			<div id = "join_search">
+				<img src="rubato/btn_join.gif">
+				<img src="rubato/btn_search.gif">
+			</div>
+		</article>
+		<nav id = "sub_menu">
+			<ul>
+				<li><a href="board_list.html">+자유게시판</a></li>
+				<li><a href="#">+방명록</a></li>
+				<li><a href="#">+공지사항</a></li>
+				<li><a href="#">+등업 요청</a></li>
+				<li><a href="#">+포토갤러리</a></li>
+			</ul>
+		</nav>
+		<article id = "sub_banner">
+			<ul>
+				<li><img src="rubato/banner1.png"></li>
+				<li><img src="rubato/banner2.png"></li>
+				<li><img src="rubato/banner3.png"></li>
+			</ul>
+		</article>
+	</aside>
+	<section id = "main">
+		<img src="rubato/comm.gif">
+
+		<h2 id = "board_title">자유게시판</h2>
+		<div id = "write_title">글쓰기</div>
+		<table>
+			<tr id = "name">
+				<td class = "col1">이름</td>
+				<td class = "col2"><input type="text"></td>
+			</tr>
+			<tr id = "subject">
+				<td class = "col1">제목</td>
+				<td class = "col2"><input type="text"></td>
+			</tr>
+			<tr id = "content">
+				<td class = "col1">내용</td>
+				<td class = "col2"><textarea></textarea></td>
+			</tr>
+			<tr>
+				<td class = "col1">업로드 파일</td>
+				<td class = "col2"><input type="text"><input type="file"></td>
+			</tr>
+		</table>
+		<div id = "buttons">
+			<a href="#"><img src="rubato/ok.png"></a>
+			<a href="board_list.html"><img src="rubato/list.png"></a>
+		</div>
+	</section>
+
+	<div class = "clear"></div>
+
+	<footer>
+		<img id = "footer_logo" src="rubato/footer_logo.gif">
+		<ul id = "address">
+			<li>서울시 강남구 삼성동 1234 우 : 123-1234</li>
+			<li>TEL : 031-123-1234 Email : email@domain.com</li>
+			<li>COPYRIGHT (C) 루바토 ALL RIGHTS RESERVED</li>
+		</ul>
+		<ul id = "footer_sns">
+			<li><img src="rubato/facebook.gif"></li>
+			<li><img src="rubato/blog.gif"></li>
+			<li><img src="rubato/twitter.gif"></li>
+		</ul>
+	</footer>
+</div>
+</body>
+</html>
